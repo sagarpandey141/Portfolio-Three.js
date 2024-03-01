@@ -38,7 +38,7 @@ const About = () => {
             bring your ideas to life!
           </p>
         </div>
-        <div className='  w-full flex flex-col md:flex-row    border border-red-500  gap-10 mb-32'>
+        <div className='  w-full flex flex-col md:flex-row    gap-10 mb-32'>
           {techStack.map((data, index) => (
             <Tilt
               key={index}
