@@ -1,7 +1,8 @@
 import icon1 from "../assets/Logo-Small-Light.png"
 import dev from "../assets/icondev.png"
 import gpt from "../assets/gpt2.png"
-import assetblox from "../assets/assetblox1.png"
+import assetblox from "../assets/asset2.png"
+import docs from "../assets/docslogo1.png"
 
   const experiences = [
     {
@@ -29,6 +30,20 @@ import assetblox from "../assets/assetblox1.png"
       ],
     },
     {
+       title:"Front End Developer",
+       company_name:"Google Docs ~ Using React and Socket.IO",
+       icon:docs,
+       iconBg:"#E6DEDD",
+       date:"Feb 2024 - March 2024",
+       points:[
+         "Utilize Socket.IO for instant communication between clients and the server.",
+         "Update React components dynamically based on real-time events, ensuring a responsive user interface.",
+         "Ensure seamless reactivity in response to real-time updates facilitated by Socket.IO.",
+         "Integrate the Quill editor seamlessly with React components.",
+         "Leverage React's capabilities to synchronize UI state with the real-time collaborative state."
+       ]
+    },
+    {
       title:"Front End Developer",
       company_name:"Web Detective",
       icon:dev,
@@ -44,22 +59,22 @@ import assetblox from "../assets/assetblox1.png"
       
       
     },
-    {
-      title:"Back End Developer",
-      company_name:"AI GPT-3.5 Turbo",
-      icon:gpt,
-      iconBg:"#E6DEDD",
-      date:"Jan 2024 - Feb 2024",
-      points : [
-        "AI Platform SaaS backend development.",
-        "Integration of GPT-3.5 Turbo for powerful language models.",
-        "Utilizing ChatGPT API for seamless conversational interfaces.",
-        "Scalable architecture for efficient and responsive AI services.",
-        "Enhancing user experience through advanced natural language processing.",
-      ]
+    // {
+    //   title:"Back End Developer",
+    //   company_name:"AI GPT-3.5 Turbo",
+    //   icon:gpt,
+    //   iconBg:"#E6DEDD",
+    //   date:"Jan 2024 - Feb 2024",
+    //   points : [
+    //     "AI Platform SaaS backend development.",
+    //     "Integration of GPT-3.5 Turbo for powerful language models.",
+    //     "Utilizing ChatGPT API for seamless conversational interfaces.",
+    //     "Scalable architecture for efficient and responsive AI services.",
+    //     "Enhancing user experience through advanced natural language processing.",
+    //   ]
       
       
-    }
+    // }
   ];
   
   export { experiences};

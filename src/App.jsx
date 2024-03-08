@@ -8,7 +8,6 @@ import Hero from './component/Hero'
 import About from './component/About'
 import Expierence from './component/Expierence'
 import Symbol from './component/Tech'
-import Ball from './component/Ball'
 import Project from './component/Project'
 import { BrowserRouter } from 'react-router-dom'
 import Testimonial from "./component/Testimonial"
